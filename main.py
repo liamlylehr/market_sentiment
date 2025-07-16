@@ -3,8 +3,8 @@ import feedparser
 # Use a pipeline as a high-level helper
 from transformers import pipeline
 
-ticker = 'AVGO'
-keyword = 'BROADCOM'
+ticker = 'C'
+keyword = 'CITIGROUP'
 
 pipe = pipeline("text-classification", model="ProsusAI/finbert")
 
